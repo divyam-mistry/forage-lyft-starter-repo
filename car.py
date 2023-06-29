@@ -1,6 +1,4 @@
-class Serviceable():
-    def needs_service(self):
-        pass
+from servicable import Serviceable
 
 class Car(Serviceable):
     def __init__(self, engine, battery):
